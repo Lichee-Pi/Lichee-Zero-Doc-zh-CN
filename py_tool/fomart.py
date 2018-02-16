@@ -1,4 +1,10 @@
 # coding: utf-8
+
+# 此脚本仅为笔者用于简易地处理从网页上所复制的表格，转换为python元组
+# 转换结果输出至convert_file.py，配合table.py使用转换为rst语法
+# 仅调用了split方法 以空格分割，无法区分单元格内空格和格间空格
+# 适用于python2.7+
+
 import sys
 import datetime
 
