@@ -41,7 +41,7 @@
    cd Lichee-Zero-Doc-zh-CN
    
    # windows
-   ./make.bat html
+   .\make.bat html
 
    # linux
    make html
@@ -158,7 +158,7 @@ Markdown语句较为简明，互联网上也有大量的辅助工具与教程；
 
             ```
         
-    - sphinx对Markdown的表格支持不够完全，请使用上一条所用方法，以rst语法来写绘制表格
+    - sphinx对Markdown的表格支持不够完全，请使用上一条所用方法，以rst语法来绘制表格
 
 
 

@@ -26,6 +26,11 @@
    :maxdepth: 2
    :caption: 初来乍到篇:
 
+   Linux使用小贴士 <入门/tips>
+   认识zero的硬件 <入门/board_intro>
+   Docker快速搭建环境 <入门/docker>
+
+
 
 .. toctree::
    :maxdepth: 2
