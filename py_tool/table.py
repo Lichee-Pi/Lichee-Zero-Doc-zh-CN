@@ -21,17 +21,21 @@ file1.truncate()  # 清空文件内容
 file1.close()
 
 # set as rst writer
-writer = pytablewriter.RstSimpleTableWriter()
+writer = pytablewriter.RstGridTableWriter()
 # change the stream to a string buffer to get the output as a string
 writer.stream = six.StringIO()
 
-writer.header_list = ['分区序号', '分区大小', '分区作用', '地址空间及分区名']
+writer.header_list = ['SPI屏', 'zero']
 
 writer.value_matrix = [
-    ['mtd0', '1MB', 'spl+uboot', '0x0000000-0x0100000 : \"uboot\"'],
-    ['mtd1', '64KB', 'dtb文件', '0x0100000-0x0110000: \"dtb\"'],
-    ['mtd2', '4MB', 'linux内核', '0x0110000-0x0510000 : \"kernel\"'],
-    ['mtd3', '剩余', '根文件系统', '0x0510000-0x2000000 : \"rootfs\"'],
+    ['3v3', '3v3'],
+    ['GND', 'GND'],
+    ['DC', 'PWM1'],
+    ['RST', '3v3'],
+    ['CS', 'CS'],
+    ['CLK', 'CLK'],
+    ['MISO', 'MISO'],
+    ['MOSI', 'MOSI'],
 ]
 
 
