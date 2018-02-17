@@ -21,16 +21,17 @@ file1.truncate()  # 清空文件内容
 file1.close()
 
 # set as rst writer
-writer = pytablewriter.RstGridTableWriter()
+writer = pytablewriter.RstSimpleTableWriter()
 # change the stream to a string buffer to get the output as a string
 writer.stream = six.StringIO()
 
-writer.header_list = ['水果', '价格', '数量']
+writer.header_list = ['分区序号', '分区大小', '分区作用', '地址空间及分区名']
 
 writer.value_matrix = [
-	['香蕉', '1', '5'],
-	['苹果', '1', '6'],
-	['草莓', '1', '7'],
+    ['mtd0', '1MB', 'spl+uboot', '0x0000000-0x0100000 : \"uboot\"'],
+    ['mtd1', '64KB', 'dtb文件', '0x0100000-0x0110000: \"dtb\"'],
+    ['mtd2', '4MB', 'linux内核', '0x0110000-0x0510000 : \"kernel\"'],
+    ['mtd3', '剩余', '根文件系统', '0x0510000-0x2000000 : \"rootfs\"'],
 ]
 
 

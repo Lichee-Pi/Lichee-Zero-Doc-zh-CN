@@ -21,7 +21,6 @@
 
    设计框图
 
-
 .. toctree::
    :maxdepth: 2
    :caption: 初来乍到篇:
@@ -37,20 +36,31 @@
 
    Zero的开发环境分类 <系统开发/type>
    UBOOT适配 <系统开发/uboot_index>
-   Linux内核编译 <系统开发/kernel>
+   Linux内核编译 <系统开发/kernel_index>
    BSP内核编译 <系统开发/bsp_index>
    根文件系统编译 <系统开发/filesys_index>
-
+   SPI系统杂谈 <系统开发/SPI_index>
+   Zero 镜像烧录 <系统开发/download_index>
+   Zero Imager的使用 <系统开发/Imager>
 
 .. toctree::
    :maxdepth: 2
    :caption: 驱动开发篇:
+
+   设备树简介 <驱动/Device_Tree_Intro>
+   外设适配 <驱动/peripheral_index>
+   设备驱动 <驱动/device>
 
 
 .. toctree::
    :maxdepth: 2
    :caption: 应用开发篇:
 
+   开机自启动 <应用/autorun>
+   Segment Fault调试 <应用/debug>
+   Zero通过otg与PC共享网络 <应用/otg2PC>
+   USB摄像头使用 <应用/USB_cam>
+   基于QT的GUI开发 <应用/QT_index>
 
 .. toctree::
    :maxdepth: 2
