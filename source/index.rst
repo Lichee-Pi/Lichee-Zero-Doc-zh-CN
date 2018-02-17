@@ -49,7 +49,7 @@
 
    设备树简介 <驱动/Device_Tree_Intro>
    外设适配 <驱动/peripheral_index>
-   设备驱动 <驱动/device>
+   设备驱动 <驱动/device_index>
 
 
 .. toctree::
