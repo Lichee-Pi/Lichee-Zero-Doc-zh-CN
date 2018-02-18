@@ -25,6 +25,7 @@
    :maxdepth: 2
    :caption: 初来乍到篇:
 
+   荔枝派与创作者的自我介绍 <入门/intro_cn>
    Linux使用小贴士 <入门/tips>
    认识zero的硬件 <入门/board_intro>
    Docker环境简明教程 <入门/docker_index>
